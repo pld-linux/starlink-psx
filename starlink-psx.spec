@@ -5,7 +5,8 @@ Version:	0.4.218
 Release:	1
 License:	GPL
 Group:		Libraries
-Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/psx/psx.tar.Z
+#Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/psx/psx.tar.Z
+Source0:	psx.tar.Z
 # Source0-md5:	b83a11985632c67f3f351bf88860a134
 URL:		http://www.starlink.rl.ac.uk/static_www/soft_further_PSX.html
 BuildRequires:	sed >= 4.0
