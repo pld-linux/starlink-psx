@@ -32,7 +32,7 @@ mo¿liwo¶ci systemu operacyjnego w sposób niezale¿ny od maszyny.
 Summary:	Header files for PSX library
 Summary(pl):	Pliki nag³ówkowe biblioteki PSX
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-ems-devel
 
 %description devel
@@ -45,7 +45,7 @@ Pliki nag³ówkowe biblioteki PSX.
 Summary:	Static Starlink PSX library
 Summary(pl):	Statyczna biblioteka Starlink PSX
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink PSX library.
