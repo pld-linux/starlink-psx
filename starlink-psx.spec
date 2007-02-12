@@ -1,5 +1,5 @@
 Summary:	PSX - POSIX interface routines
-Summary(pl):	PSX - funkcje interfejsu POSIX
+Summary(pl.UTF-8):   PSX - funkcje interfejsu POSIX
 Name:		starlink-psx
 Version:	0.4.218
 Release:	1
@@ -22,15 +22,15 @@ functionality provided by the POSIX and X/OPEN libraries. The use of
 this library will enable programmers to make use of operating system
 facilities in a machine independent way.
 
-%description -l pl
-PSX to biblioteka funkcji fortranowych pozwalaj±ca programistom
-korzystaÊ z funkcjonalno∂ci dostarczanej przez biblioteki POSIX i
-X/OPEN. Uøycie tej biblioteki umoøliwia programistom korzystanie z
-moøliwo∂ci systemu operacyjnego w sposÛb niezaleøny od maszyny.
+%description -l pl.UTF-8
+PSX to biblioteka funkcji fortranowych pozwalajƒÖca programistom
+korzystaƒá z funkcjonalno≈õci dostarczanej przez biblioteki POSIX i
+X/OPEN. U≈ºycie tej biblioteki umo≈ºliwia programistom korzystanie z
+mo≈ºliwo≈õci systemu operacyjnego w spos√≥b niezale≈ºny od maszyny.
 
 %package devel
 Summary:	Header files for PSX library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki PSX
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki PSX
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-ems-devel
@@ -38,19 +38,19 @@ Requires:	starlink-ems-devel
 %description devel
 Header files for PSX library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki PSX.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki PSX.
 
 %package static
 Summary:	Static Starlink PSX library
-Summary(pl):	Statyczna biblioteka Starlink PSX
+Summary(pl.UTF-8):   Statyczna biblioteka Starlink PSX
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink PSX library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka Starlink PSX.
 
 %prep
