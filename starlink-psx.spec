@@ -1,5 +1,5 @@
 Summary:	PSX - POSIX interface routines
-Summary(pl.UTF-8):   PSX - funkcje interfejsu POSIX
+Summary(pl.UTF-8):	PSX - funkcje interfejsu POSIX
 Name:		starlink-psx
 Version:	0.4.218
 Release:	1
@@ -30,7 +30,7 @@ możliwości systemu operacyjnego w sposób niezależny od maszyny.
 
 %package devel
 Summary:	Header files for PSX library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki PSX
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki PSX
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-ems-devel
@@ -43,7 +43,7 @@ Pliki nagłówkowe biblioteki PSX.
 
 %package static
 Summary:	Static Starlink PSX library
-Summary(pl.UTF-8):   Statyczna biblioteka Starlink PSX
+Summary(pl.UTF-8):	Statyczna biblioteka Starlink PSX
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
